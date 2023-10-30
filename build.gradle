@@ -17,5 +17,6 @@ jar {
     manifest {
         attributes 'Main-Class': 'ui.goit.Main'
     }
+    archiveFileName = 'myname.jar'
     from configurations.compileClasspath.collect { it.isDirectory() ? it : zipTree(it) }
 }
