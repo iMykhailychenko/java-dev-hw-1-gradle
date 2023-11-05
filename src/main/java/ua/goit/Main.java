@@ -1,4 +1,4 @@
-package ui.goit;
+package ua.goit;
 
 
 import com.google.gson.Gson;
